@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>录入</title>
+		<link rel="stylesheet" href="entry.css" />
+	</head>
+	<body>
+		<div id="box">
+			<h2>录入界面</h2>
+			<div id="entry">
+				图片地址:<input type="text" id="img" />
+				商品名称:<input type="text" id="goodsName" />
+				商品价格:<input type="number" id="price" />
+				商品种类:
+				<select id="sel">
+					<option value="s1">冰箱</option>	
+					<option value="s2">电脑</option>	
+					<option value="s3">手机</option>	
+				</select>
+				<br />
+				<button type="button" id="addPost">添加</button>
+				<span id="prompt"></span>
+			</div>
+			<table id="tab">
+				<thead>
+					<tr>
+						<th>图片</th>
+						<th>名称</th>
+						<th>价格</th>
+						<th>种类</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--<tr>
+						<td>
+							<img src="/img/bx1.jpg"  />
+						</td>
+						<td>吵架1号</td>
+						<td>999999</td>
+						<td>
+							冰箱
+						</td>
+						<td>
+							<a>删除</a>
+							<a>修改</a>
+						</td>
+					</tr>-->
+				</tbody>
+			</table>
+		</div>
+		<script src="/jquery/jquery-1.11.3.js"></script>
+		<script src="entry.js"></script>
+	</body>
+</html>

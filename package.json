@@ -2,5 +2,23 @@
   "devDependencies": {
     "express": "^4.16.4",
     "mongodb": "^3.1.10"
-  }
+  },
+  "name": "myFruit",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KKy2016/myFruit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KKy2016/myFruit/issues"
+  },
+  "homepage": "https://github.com/KKy2016/myFruit#readme",
+  "description": ""
 }
