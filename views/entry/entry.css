@@ -20,3 +20,13 @@ table#tab tr td a{
 span#prompt{
 	color: red;
 }
+
+/*button选中*/
+button.active{
+	color: red;
+}
+
+/*确认修改*/
+button#updf{
+	display: none;
+}

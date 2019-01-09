@@ -46,6 +46,10 @@ app.get("/show",function(req,res){
 	res.send({s:0});
 })*/
 app.post("/addPost",urlencodedParser,entry.entryAddPost);
+app.post("/getDataPost",urlencodedParser,entry.entryGetDataPost);
+app.post("/delDataPost",urlencodedParser,entry.entryDelDataPost);
+app.post("/searchData",urlencodedParser,entry.entrySearchData);
+app.post("/updf",urlencodedParser,entry.entryUpdf);
 
 
 app.listen(81,function(){
